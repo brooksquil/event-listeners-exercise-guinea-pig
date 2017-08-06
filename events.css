@@ -1,0 +1,19 @@
+.change-blue {
+    color: blue;
+}
+
+.hulkify {
+    font-size: 6em;
+}
+
+.borderNow {
+    border: 3px groove magenta;
+}
+
+.rounder {
+    border-radius: 15%;
+}
+
+.boldNow {
+    font-weight: bolder;
+}
