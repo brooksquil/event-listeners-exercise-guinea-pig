@@ -80,20 +80,14 @@ document.getElementById("add-rounding").addEventListener("click", function() {
 });
 
 // The first section's text should be bold:
-
-document.getElementById("article-section").addEventListener("load", function() {
-    for (var i = 0; i < sections.length; i++) {
-        sections.classList.toggle("boldNow");
-
-    }
-
-});
-
-
-
-
+let boldSection = sections[0];
+boldSection.className += " boldNow";
 
 // The last section's text should be bold and italicized:
+let boldItalic = sections[5];
+boldItalic.className += " boldItalic";
+
+
 
 
 // Make the buttons stop appearing next to each other as inline elements. Change them into block elements:

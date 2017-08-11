@@ -17,3 +17,13 @@
 .boldNow {
     font-weight: bolder;
 }
+
+.boldItalic {
+    font-weight: bolder;
+    font-style: italic;
+}
+
+button {
+    display: block;
+    margin: 2px;
+}
